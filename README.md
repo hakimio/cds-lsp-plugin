@@ -11,7 +11,8 @@ and [@sap/cds-lsp](https://www.npmjs.com/package/@sap/cds-lsp) node package.
 
 - Download and install plugin from [GitHub release](https://github.com/hakimio/cds-lsp-plugin/releases) page
 - Install TextMate syntax highlighting bundle from [@sap/cds-lsp](https://www.npmjs.com/package/@sap/cds-lsp) library.
-The bundle is located in `@sap\cds-lsp\syntaxes` directory.
+The bundle is located in `@sap\cds-lsp\syntaxes` directory. "TextMate Bundles" IDE plugin has to be enabled to install
+the bundle.
 
 ### Experimental
 
