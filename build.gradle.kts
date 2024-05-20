@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.cds.lsp.plugin"
-version = "1.0-SNAPSHOT"
+version = "1.0.1"
 
 repositories {
   mavenCentral()
@@ -16,7 +16,7 @@ repositories {
 // Configure Gradle IntelliJ Plugin
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellij {
-  version.set("2023.2")
+  version.set("2024.1.1")
   type.set("IU") // Target IDE Platform
 
   plugins.set(listOf("JavaScript"))
@@ -44,7 +44,7 @@ tasks {
 
   patchPluginXml {
     sinceBuild.set("231")
-    untilBuild.set("241.*")
+    untilBuild.set("242.*")
   }
 
   signPlugin {
