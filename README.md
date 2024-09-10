@@ -1,5 +1,7 @@
 ## CDS Language Support for JetBrains IDEs
 
+## NOTICE: Use [official plugin](https://plugins.jetbrains.com/plugin/25209-sap-cds-language-support) from SAP instead :warning:
+
 Experimental CDS language support for JetBrains IDEs using 
 [JetBrains Language Server Protocol support](https://blog.jetbrains.com/platform/2023/07/lsp-for-plugin-developers/) 
 and [@sap/cds-lsp](https://www.npmjs.com/package/@sap/cds-lsp) node package.
